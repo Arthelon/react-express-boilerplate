@@ -1,7 +1,7 @@
 const initialState = {}
 
 export default function mainReducer(state = initialState, action) {
-    switch (state) {
+    switch (action.type) {
         default:
             return state
     }
