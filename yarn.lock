@@ -23,11 +23,11 @@ array-reduce@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/array-reduce/-/array-reduce-0.0.0.tgz#173899d3ffd1c7d9383e4479525dbe278cab5f2b"
 
-async@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.0.1.tgz#b709cc0280a9c36f09f4536be823c838a9049e25"
+async@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.1.2.tgz#612a4ab45ef42a70cde806bad86ee6db047e8385"
   dependencies:
-    lodash "^4.8.0"
+    lodash "^4.14.0"
 
 bluebird@2.10.2:
   version "2.10.2"
@@ -48,9 +48,13 @@ body-parser@^1.15.2:
     raw-body "~2.1.7"
     type-is "~1.6.13"
 
-bson@~0.5.4, bson@~0.5.5:
+bson@~0.5.4:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/bson/-/bson-0.5.5.tgz#1d6725d400f0fbf0271bf6bafc8fa1126c29983b"
+
+bson@~0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-0.5.6.tgz#e03de80a692c28fca4396f0d14c97069bd2b73a6"
 
 buffer-shims@^1.0.0:
   version "1.0.0"
@@ -241,9 +245,9 @@ kareem@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/kareem/-/kareem-1.1.3.tgz#0877610d8879c38da62d1dbafde4e17f2692f041"
 
-lodash@^4.8.0:
-  version "4.16.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.4.tgz#01ce306b9bad1319f2a5528674f88297aeb70127"
+lodash@^4.14.0:
+  version "4.16.6"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.6.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -271,33 +275,33 @@ mime@1.3.4:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.3.4.tgz#115f9e3b6b3daf2959983cb38f149a2d40eb5d53"
 
-mongodb-core@2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-2.0.12.tgz#bb66aad550e252731f8ad49276815264a91c337c"
+mongodb-core@2.0.13:
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-2.0.13.tgz#f9394b588dce0e579482e53d74dbc7d7a9d4519c"
   dependencies:
-    bson "~0.5.5"
+    bson "~0.5.6"
     require_optional "~1.0.0"
 
-mongodb@2.2.10:
-  version "2.2.10"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-2.2.10.tgz#d11273a5a53b08e17bcc4c8a295ded0f151ccae6"
+mongodb@2.2.11:
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-2.2.11.tgz#a828b036fe6a437a35e723af5f81781c4976306c"
   dependencies:
     es6-promise "3.2.1"
-    mongodb-core "2.0.12"
+    mongodb-core "2.0.13"
     readable-stream "2.1.5"
 
-mongoose@^4.6.1:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.6.3.tgz#92226e34720ae859afb5dee3170b62653d6598bb"
+mongoose:
+  version "4.6.7"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.6.7.tgz#fc82b4851620e8d994b883fb3fd03b401566d693"
   dependencies:
-    async "2.0.1"
+    async "2.1.2"
     bson "~0.5.4"
     hooks-fixed "1.2.0"
     kareem "1.1.3"
-    mongodb "2.2.10"
+    mongodb "2.2.11"
     mpath "0.2.1"
     mpromise "0.5.5"
-    mquery "1.11.0"
+    mquery "2.0.0"
     ms "0.7.1"
     muri "1.1.1"
     regexp-clone "0.0.1"
@@ -311,9 +315,9 @@ mpromise@0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/mpromise/-/mpromise-0.5.5.tgz#f5b24259d763acc2257b0a0c8c6d866fd51732e6"
 
-mquery@1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/mquery/-/mquery-1.11.0.tgz#e0c65dedb1037edbf6cfb88262e777fee23551d9"
+mquery@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mquery/-/mquery-2.0.0.tgz#b5abc850b90dffc3e10ae49b4b6e7a479752df22"
   dependencies:
     bluebird "2.10.2"
     debug "2.2.0"
